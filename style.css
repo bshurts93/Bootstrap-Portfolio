@@ -1,0 +1,145 @@
+/* GLOBAL */
+
+body {
+    background-image: url(assets/img/hero.jpeg);
+}
+
+h1 { color: #6eaeae; }
+h5 { color: #7a7a7a; }
+
+.container {
+    padding: 0;
+}
+
+p { color: #7a7a7a; }
+
+/* BTNS */
+
+.btn-primary {
+    background-color: #6eaeae;
+    border-color: rgb(168, 168, 168);
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    margin-top: 2rem;
+    background-color: rgb(245, 245, 245);
+    padding: 0;
+    padding: 30px;
+    box-shadow: 0 1rem 4rem black;
+}
+
+/* NAVBAR */
+
+.navbar { padding: 0; margin: 0; }
+
+.navbar-brand {
+    padding: 20px;
+    margin: 0;
+    font-size: 2rem;
+    background-color: #6eaeae;
+    float: left;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-brand {
+        background-color: black;
+    }
+}
+
+.nav-container .navbar-brand { 
+    color: white; 
+    font-weight: bold;
+}
+
+/* ABOUT */
+
+.headshot {
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 60px;
+    -webkit-shape-outside:circle(40%);
+    shape-outside:circle(40%);
+}
+
+.about p {
+    font-size: 1.3rem;
+    line-height: 33px;
+}
+
+.p-accent {
+    color: #6eaeae;
+}
+
+/* PORTFOLIO */
+
+.img-box {
+    object-fit: contain;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 15px 0 0 0;
+    text-align: center;    
+}
+
+/* CONTACT */
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+.page-footer {
+    background-color: gray;
+    border-top: #6eaeae solid 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer-copyright {
+    color: rgb(212, 212, 212);
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+/* ROCK PAPER SCISSORS */
+
+.score-box {
+    margin: 0 auto;
+}
+
+.scoreboard {
+    margin-bottom: 50px;
+}
+
+.btn-rps {
+    padding: 20px 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#outcome {
+    font-size: 2.4rem;
+    line-height: 6rem;
+}
+
+.move {
+    padding: 10px;
+}
+
+.score {
+    padding: 10px 0 0 0;
+}
